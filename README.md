@@ -1,0 +1,1 @@
+I had assumed downloading git was the github app itself - therefore ensuing quite a bit of stuggle. After solving that and restarting my computer I was able to tap ctrl ^ ` in order to open the terminal and write "git branch" to create a block2 brancha after the main branch
