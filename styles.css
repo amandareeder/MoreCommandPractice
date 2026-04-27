@@ -1,0 +1,89 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #ffcccc;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 3rem;
+  color: #ff66b2;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+/* Cat Facts Section */
+.cat-facts {
+  background-color: #ffebf2;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.cat-facts h2 {
+  font-size: 2rem;
+  text-align: center;
+  color: #ff66b2;
+}
+
+
+.cat-facts li {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 40px;
+}
+
+/* Cat Gallery Section */
+.cat-gallery {
+  margin: 30px;
+  text-align: center;
+}
+
+.cat-gallery h2 {
+  font-size: 2.5rem;
+  color: #ff66b2;
+  margin-bottom: 20px;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.gallery img {
+  width: 250px;
+  height: 200px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer Styles */
+footer {
+  background-color: #ff66b2;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
